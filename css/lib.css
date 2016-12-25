@@ -1,0 +1,17 @@
+.box{
+  diplay:block;
+  width:20px;
+  height:20px;
+  background-color:#00f100;
+  -webkit-transition:background-color 5s, height 2s, width 2s, margin 2s;
+  transition:background-color 5s, height 2s, width 2s, margin 2s;
+  margin-left:1px;
+  margin-top:1px;
+  border-radius:50%;
+}
+.box:hover{
+  background-color:red;
+  cursor:pointer;
+  height:200px;
+  width:200px;
+}
